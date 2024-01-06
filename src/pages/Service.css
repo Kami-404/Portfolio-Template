@@ -1,0 +1,54 @@
+.service-section {
+  background-color: #f0e6f8;
+  padding: 50px 0;
+}
+
+.service-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.service-hover {
+  position: relative;
+}
+
+.service-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.service-container:hover .service-text {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.service-hover:hover .service-image {
+  transform: scale(1.05);
+}

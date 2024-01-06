@@ -1,0 +1,12 @@
+.avis-section {
+  background-color: #f0e6f8;
+  padding: 50px 0;
+}
+
+.avis-box {
+  background-color: #FFDF82;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}

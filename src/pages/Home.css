@@ -1,0 +1,39 @@
+.header-section {
+    background-color: #f0e6f8;
+    padding: 50px;
+}
+.logo {
+  max-width: 100px;
+  height: auto;
+  margin-left: 180px;
+}
+.cat {
+  min-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .cat {
+    width: 100%;
+  }
+}
+
+button {
+  transition: all .5s ease;
+  color: #001F3F;
+  border: 3px solid #FFDF82;
+  font-family:'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color : transparent;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+button:hover {
+  color: #001F3F;
+  background-color: #FFDF82;
+}
